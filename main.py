@@ -9,8 +9,8 @@ pygame.display.set_caption("Miracle-star")
 
 BG = pygame.transform.scale(pygame.image.load('image/background/fon.jpg'), (WIDTH, HEIGHT))
 
-STAR_WIDTH = 60
-STAR_HEIGHT = 60
+STAR_WIDTH = 10
+STAR_HEIGHT = 15
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 40
 PLAYER_TURN = 3
