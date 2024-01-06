@@ -1,2 +1,2 @@
-# Miracle-shot
-Miracle-shot game
+# Miracle-star
+Miracle-star game
