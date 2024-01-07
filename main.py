@@ -2,7 +2,6 @@ import start_pack
 
 pygame = start_pack.pygame
 
-
 def draw(player, elapsed_time, stars):
     start_pack.WIN.blit(start_pack.BG, (0, 0))
 
