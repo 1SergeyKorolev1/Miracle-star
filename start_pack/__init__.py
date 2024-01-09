@@ -18,10 +18,10 @@ pygame.display.set_icon(pygame.image.load('image/logo/ico.png'))
 BG = pygame.transform.scale(pygame.image.load('image/background/fon.jpg'), (WIDTH, HEIGHT))
 
 # __________________Игрок и Враги (размеры)____________________
-STAR_WIDTH = 10
-STAR_HEIGHT = 17
-# PLAYER_WIDTH = 40
-# PLAYER_HEIGHT = 40
+STAR_WIDTH = 15
+STAR_HEIGHT = 15
+PLAYER_WIDTH = 40
+PLAYER_HEIGHT = 40
 PLAYER_RADIUS = 15
 
 # ________________Смещение игрока/врага за одно нажатие_________________
@@ -44,4 +44,8 @@ hit = False
 # __________Игрок на сцене___________
 # player = pygame.Rect(200, start_pack.HEIGHT - start_pack.PLAYER_HEIGHT, start_pack.PLAYER_WIDTH,
 # start_pack.PLAYER_HEIGHT)
-player = pygame.draw.circle(WIN, 'blue', (WIDTH / 2, HEIGHT - PLAYER_RADIUS), PLAYER_RADIUS, width=0)
+# player = pygame.draw.circle(WIN, 'blue', (WIDTH / 2, HEIGHT - PLAYER_RADIUS), PLAYER_RADIUS, width=0)
+player_image = pygame.image.load('image/player/world.png')
+player_image_transform = pygame.transform.scale(player_image, (PLAYER_WIDTH, PLAYER_HEIGHT))
+player = player_image_transform.get_rect(center=(WIDTH//2, HEIGHT-PLAYER_HEIGHT//2))
+# player = pygame.transform.scale(pygame.image.load('image/player/world.png'), (PLAYER_WIDTH, PLAYER_HEIGHT))
