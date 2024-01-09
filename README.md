@@ -6,4 +6,4 @@
 или в ручную (из сторонних библиотек используется только pygame):  
 pip install pygame  
 
-![scrin](https://sun9-71.userapi.com/impg/3rsQy-VeOfhSPTfY9Qj3lGbDpoj_sIvOxXMzxA/jfA4Fnlv71Q.jpg?size=1258x1049&quality=95&sign=98af4d1afd10be9a25a30dbaa1df0856&type=album)
+![scrin](https://sun9-19.userapi.com/impg/nciWHK850g19o-aAvUwoHuqy6gKzBgd7xB9VVw/6vKdav07250.jpg?size=1258x1049&quality=95&sign=f0b94115784415cdbee75acedeec27ab&type=album)
